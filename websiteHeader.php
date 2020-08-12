@@ -9,6 +9,8 @@ echo
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     <body style="background-color:black">
+        <!-- Website Logo -->
+        <header style="background-color:#1f1f1f;display:block;text-align:center;"><img src="images/CSAD LOGO.png" style="width:230px;height:100px;margin-top:20px"></header>
         <!-- Navbar -->
         <nav class="navbar navbar-dark" style="background-color:#1f1f1f;color:white">
             <a class="navbar-brand" href="index.php">CSAD</a>

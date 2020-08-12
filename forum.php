@@ -13,13 +13,17 @@ $_SESSION['currentPage']='forum.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Homepage</title>
+        <title>Forum</title>
         <?php include('websiteHeader.php'); ?>
         
         <!-- Content -->
         <main role="main">
         <div class="jumbotron" style="padding-top:15px;padding-bottom:30px;margin-bottom:0px;background-color: black;color:white">
             <div class="mx-auto">
+                <form method="post" action="search.php">
+                    <input type="text" name="searchQuery"><button name="search"><img src="images/searchicon.png" height="20" width="20" style="padding:0px;margin-bottom:4px"></button>
+                </form>
+                
                 <?php 
                 if (isset($_SESSION['User'])) {
                     echo 'Welcome '.$_SESSION['User'].',';
