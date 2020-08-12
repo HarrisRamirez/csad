@@ -1,0 +1,28 @@
+body {
+	background-color:#f4f4f4;
+	color:#555555;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:16px;
+	font-weight: normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+
+    line-height:1.6em; /* em is for line height generally */
+    margin:0;
+
+
+
+}
+.container {
+	width:500px;
+	margin:auto;
+}
+
+.box-1{
+	background-color:#333;
+	color:#fff;
+}
+
